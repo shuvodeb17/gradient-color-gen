@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bs5/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hello, world!</title>
+  </head>
+  <body>
+   
+    <div id="wrapper">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center">Gradient Genarator App</h1>
+                <h2 class="text-center">Developer by <span class="text-danger">(Shuvo Deb)</span></h2>
+
+                <!-- Left sec start here -->
+                <div class="col-lg-7 col-xl-7 col-xxl-7 col-md-7 col-sm-12 col-12 left-sec">
+                    <div id="output-color"></div>
+                </div>
+                <!-- Left sec end here -->
+
+                <!-- Right sec start here -->
+                <div class="col-lg-5 col-xl-5 col-xxl-5 col-md-5 col-sm-12 col-12 right-sec">
+                    <div class="right-main">
+                        <h3>Choose your colors</h3>
+                        <div class="chose-area">
+                            <input type="color" id="gen-color-one" value="#374573">
+                            <input type="color" id="gen-color-two" value="#836473">
+                        </div>
+                        <h6 id="color-code">linear-gradient(to right bottom, rgb(15, 15, 15), rgb(227, 22, 122));</h6>
+                        <button id="copy-btn">Copy</button>
+                    </div>
+                </div>
+                <!-- Right sec end here -->
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="bs5/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

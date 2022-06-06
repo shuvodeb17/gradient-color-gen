@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#wrapper {
+  width: 100%;
+  height: 100vh;
+}
+.left-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.left-sec #output-color {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(
+    to right bottom,
+    rgb(15, 15, 15),
+    rgb(227, 22, 122)
+  );
+}
+.left-sec #show-color {
+  width: 100%;
+  height: 50vh;
+}
+.right-sec {
+  display: flex;
+  align-items: center;
+}
+.right-sec .right-main {
+  box-shadow: 10px 10px 15px #ede5e5, -10px -10px 15px #ddd;
+  width: 100%;
+  padding: 38px 20px;
+  border-radius: 9px;
+}
+
+.chose-area .gen-color-one {
+}
+.chose-area .gen-color-two {
+}
+.right-sec #copy-btn {
+  padding: 7px 40px;
+  border: none;
+  background-color: #02af24;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 3%;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.right-sec #copy-btn:hover {
+  background-color: #166125;
+}
+@media screen and (max-width: 768px) {
+  .left-sec {
+    margin-top: -25%;
+  }
+  .right-sec .right-main {
+    margin-top: -17%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .right-sec .right-main {
+    margin-top: -23vw;
+}
+}
